@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* Copyright 2024 | Muhammad Sandi */
+/* For more please visit : https://muhammad-sandi.github.io/ */
+/* Made With Love <3 */
+
+body {
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#wrap {
+    width: 1000px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*------------------------------------HEADER------------------------------------*/
+
+
+#header {
+    width: 1000px;
+    height: 200px;
+    border: 1px solid#999;
+    border-radius: 8px 8px 0 0;
+    background-image: url(img/header2.png);
+    background-size: cover;
+}
+
+
+/*------------------------------------MENU------------------------------------*/
+
+#menu {
+    width: 1000px;
+    height: 30px;
+    border: 1px solid#000;
+    margin-top: 2px;
+    background-color: #999;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul li {
+    list-style: none;
+    float: left;
+    padding: 4px 0px 6px;
+    border-right: 1px solid #999;
+    position: relative;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+#menu ul li a span {
+    padding: 5px 19px 7px;
+}
+
+#menu ul li a:hover span {
+    background-color: #999;
+    color: #fff;
+    transition-delay:50ms;
+}
+
+#menu ul li ul {
+    display: none;
+}
+
+#menu ul li:hover ul {
+    display: block;
+    position: absolute;
+    top: 30px;
+    background-color: #999;
+    border: 1px solid #000;
+    border-right: 1px solid #000;
+    transition-delay: 50ms;
+}
+
+#menu ul li:hover ul li {
+    margin-top: 0;
+    padding: 0;
+}
+
+#menu ul li:hover ul li a span {
+    display: block;
+    width: 150px;
+}
+
+/*------------------------------------TOP LEFT------------------------------------*/
+
+#left {
+    width: 250px;
+    height: auto;
+    border: 1px solid #000;
+    margin-top: 5px;
+    float: left;
+}
+
+#top-left {
+    width: 250px;
+    height: auto;
+    margin: 0px auto;
+    float: left;
+}
+
+#title {
+    width: 100%;
+    height: 30px;
+    background-color: #999;
+    margin-bottom: 1px;
+    border: 1px solid #999;
+    text-align: center;
+    font-weight: bold;
+}
+
+#title p {
+    padding: 0;
+    margin: 5px auto;
+}
+
+#content-tl {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#tl-wrap img{
+    width: 200px;
+    height: 100px;
+    margin: 10px 23px;
+}
+
+#tl-wrap p{
+    margin-top: -5px;
+    margin-left: 23px;
+    margin-right: 23px;
+    text-align: justify;
+}
+
+#tl-wrap :hover{
+    text-decoration: underline;
+}
+
+/*------------------------------------TOP MIDDLE------------------------------------*/
+
+#top-midle {
+    width: 250px;
+    height: auto;
+    margin: 0px auto;
+    float: left;
+}
+
+#content-tm {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#content-tm img{
+    margin: auto;
+    margin-left: 25px;
+}
+
+#content-tm ul {
+    padding: 0;
+    margin: 0;
+}
+
+#content-tm ul li {
+    list-style: url(icon.png);
+    margin: 10px 0 5px 30px;
+}
+
+#content-tm ul li a {
+    text-decoration: none;
+    color: #000000;
+}
+
+#content-tm li a:hover {
+    color: #06f;
+    text-decoration: underline;
+}
+
+/*------------------------------------RIGHT BAR------------------------------------*/
+
+#right {
+    width: 740px;
+    height: auto;
+    float: right;
+    margin: 5px -2px 0 0;
+}
+
+#top-right {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+}
+
+#content-tr {
+    width: 100%;
+    height: auto;
+    border: 0px solid #000;
+}
+
+#content-tr p {
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*------------------------------------MIDDLE RIGHT------------------------------------*/
+
+#mr-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+#middle-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#bottom-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#box-mr {
+    width: 240px;
+    height: 250px;
+    border: 1px solid #999;
+    margin-right: 7px;
+}
+
+#box-middle {
+    width: 240px;
+    height: 250px;
+    border: 1px solid #999;
+    margin-right: 7px;
+}
+
+#box-mr1 {
+    width: 240px;
+    height: 250px;
+    border: 1px solid #999;
+    margin-right: 0px;
+}
+
+#box-mr1 img {
+    width: 200px;
+}
+
+#page-boxmr {
+    width: 100%;
+    height: 215px;
+    font-size: 10px;
+    line-height: 15px;
+}
+
+#page-boxmr ul {
+    padding: 0;
+    margin: 0;
+}
+
+#page-boxmr li {
+    list-style: none;
+}
+
+#page-boxmr li img {
+    border-radius: 50%;
+}
+
+#page-boxmr ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#page-boxmr ul li a:hover {
+    text-decoration: underline;
+}
+
+/*------------------------------------BANNER------------------------------------*/
+
+#banner {
+    width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    margin: 5px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#banner img {
+    width: 80px;
+}
+
+/*------------------------------------BOTTOM RIGHT------------------------------------*/
+#bottom-right {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+#box-br {
+    height: 250px;
+    border: 1px solid #999;
+    margin-right: 5px;
+}
+
+#box-br2 {
+    height: 250px;
+    border: 1px solid #999;
+}
+
+#page-boxbr {
+    width: 365px;
+    height: 215px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#page-boxbr p{
+   margin: 10px;
+   text-align: justify;
+}
+
+/*------------------------------------BOTTOM------------------------------------*/
+
+#bottom{
+    width: 100%;
+    float: inline-start;
+    display: flex;
+}
+
+#content-tb {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+}
+
+#top-bottom2{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#content-tb p {
+    text-align: justify;
+    line-height: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*------------------------------------FOOTER------------------------------------*/
+
+#footer {
+    width: 1000px;
+    height: 100px;
+    border: 1px solid #000;
+    float: left;
+    margin: 5px 0;
+}
+
+#footer p{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
