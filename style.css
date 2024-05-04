@@ -241,21 +241,21 @@ body {
 #box-mr {
     width: 240px;
     height: 250px;
-    border: 1px solid #999;
+    border: 1px solid #000;
     margin-right: 7px;
 }
 
 #box-middle {
     width: 240px;
     height: 250px;
-    border: 1px solid #999;
+    border: 1px solid #000;
     margin-right: 7px;
 }
 
 #box-mr1 {
     width: 240px;
     height: 250px;
-    border: 1px solid #999;
+    border: 1px solid #000;
     margin-right: 0px;
 }
 
@@ -319,13 +319,13 @@ body {
 
 #box-br {
     height: 250px;
-    border: 1px solid #999;
+    border: 1px solid #000;
     margin-right: 5px;
 }
 
 #box-br2 {
     height: 250px;
-    border: 1px solid #999;
+    border: 1px solid #000;
 }
 
 #page-boxbr {
@@ -352,12 +352,20 @@ body {
 #content-tb {
     width: 100%;
     height: auto;
-    border: 1px solid #ccc;
+}
+
+#top-bottom1{
+    border: 1px solid #000;
 }
 
 #top-bottom2{
     margin-left: 5px;
     margin-right: 5px;
+    border: 1px solid #000;
+}
+
+#top-bottom3{
+    border: 1px solid #000;
 }
 
 #content-tb p {
@@ -371,7 +379,7 @@ body {
 
 #footer {
     width: 1000px;
-    height: 100px;
+    height: 70px;
     border: 1px solid #000;
     float: left;
     margin: 5px 0;
@@ -380,5 +388,5 @@ body {
 #footer p{
     display: flex;
     justify-content: center;
-    padding-top: 30px;
+    padding-top: 15px;
 }
