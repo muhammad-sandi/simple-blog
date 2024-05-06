@@ -152,14 +152,14 @@ body {
 
 #top-midle {
     width: 250px;
-    height: auto;
+    height: 257px;
     margin: 0px auto;
     float: left;
 }
 
 #content-tm {
     width: 100%;
-    height: auto;
+    height: 257px;
     border: 1px solid #ccc;
 }
 
